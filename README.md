@@ -19,3 +19,5 @@ It seems like `Cargo.toml` is similar to a header file, where it specifies depen
 See [here](https://doc.rust-lang.org/cargo/reference/manifest.html) for a detailed look at `Cargo.toml` fields for specifying package information.
 
 Added a debug configuration to `.vscode/launch.json` and debugging works very well inside VSCode.
+
+Since we have a Cargo project, use `cargo build` rather than `rustc main.rs`. Use `cargo build --release` to build an optimized release version.
