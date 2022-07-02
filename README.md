@@ -17,3 +17,5 @@ Read the boilerplate `.gitignore` from GitHub - since we're compiling an executa
 It seems like `Cargo.toml` is similar to a header file, where it specifies dependencies, and `Cargo.lock` is more like `package-lock.json` for Node.js projects. The reason we don't want `Cargo.lock` for libraries is that users of the library won't be interested in the particular versions of dependencies used to build it - in fact, a program that uses a library will likely have different versions of those same dependencies itself, so the versions would likely conflict. Libraries have something called `SemVer` which dictates compatibility.
 
 See [here](https://doc.rust-lang.org/cargo/reference/manifest.html) for a detailed look at `Cargo.toml` fields for specifying package information.
+
+Added a debug configuration to `.vscode/launch.json` and debugging works very well inside VSCode.
